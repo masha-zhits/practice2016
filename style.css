@@ -1,0 +1,67 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body {padding: 10px;}
+
+/* img {width: 18px; */
+/* 	height: 18px;} */
+
+.Container li {
+        list-style-type: none; 
+}
+
+
+
+.Node {
+    margin-left: 20px;
+    zoom: 1; 
+    background-image : url(img/i.gif);
+    background-position : top left;
+    background-repeat : repeat-y;
+}
+
+
+.Container img {
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin: 2px;
+	cursor: move;        
+}
+
+
+.Main {
+    margin-left: 0;
+    background-image : url(img/l.gif);
+     background-repeat: no-repeat;
+}
+
+.End {
+    background-image: url(img/i_half.gif);
+    background-repeat : no-repeat;
+}
+
+
+
+.Indent {
+    width: 20px;
+    height: 20px;
+    float: left; 
+    background-image: url(img/l.gif);  
+   	cursor:move; 
+}
+
+
+ .Content {
+    margin-left:24px;   
+    min-height: 22px; 
+}
+
+.Container {
+	display: block;
+}
+
+
+
