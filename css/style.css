@@ -16,7 +16,7 @@
 .b-tree li:not(:last-child){
   border-left: 1px solid gray;
 }
- .b-tree li li::before, 
+ .b-tree li li::before, .b-tree ul ul::before,
  .b-tree > li:not(:only-child)::before, .b-tree > ul:not(:only-child)::before{
   content: '';
   position: absolute;
