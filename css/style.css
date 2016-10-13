@@ -1,23 +1,46 @@
-.b-tree ul, .b-tree li {
+#tree span:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+/* #tree span.hover, для приоритета перед :hover также добавлен подселектор */
+
+#tree span.hover,
+#tree span.hover:hover {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+span.avatar {
+  padding: 1px;
+  border: 1px dotted black;
+  background: white;
+  cursor: pointer;
+  opacity: 0.6;
+  filter: progid: DXImageTransform.Microsoft.Alpha(opacity=60);
+  /* IE opacity */
+}
+
+#tree ul, #tree li {
   margin: 0;
   padding: 0;
   line-height: 1.6;
   list-style: none;
   position: relative;
 }
-.b-tree  ul {
+#tree  ul {
   margin: 0 0 0 20px;
 }
-.b-tree > li:not(:only-child), .b-tree li li 
+#tree > li:not(:only-child), #tree li li 
 {
   position: relative;
   padding: .2em 0 0 1.2em;
 }
-.b-tree li:not(:last-child){
+#tree li:not(:last-child){
   border-left: 1px solid gray;
 }
- .b-tree li li::before, .b-tree ul ul::before,
- .b-tree > li:not(:only-child)::before, .b-tree > ul:not(:only-child)::before{
+#tree li li::before, #tree ul ul::before,
+ #tree > li:not(:only-child)::before, #tree > ul:not(:only-child)::before{
   content: '';
   position: absolute;
   top: 0;
@@ -26,8 +49,12 @@
   height: 20px;
   border-bottom: 1px solid gray;
 }
- .b-tree li:last-child::before, .b-tree ul:last-child::before {
+ #tree li:last-child::before, #tree ul:last-child::before {
   width: calc(1.1em - 1px);
   border-left: 1px solid gray;
 }
 
+
+#tree span{text-decoration:underline;
+  color: blue;
+}
