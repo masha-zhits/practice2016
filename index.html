@@ -1,74 +1,310 @@
-<html>
-<head>
-	<title>Practice 2016</title>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<script type="text/javascript" src="script.js"></script>
-</head>
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>A Pen by  Eleka</title>
+    
+    <script src="script/lib.js"></script>
+  <script src="script/DragManager.js"></script>
+  <script src="script/DragAvatar.js"></script>
+  <script src="script/DragZone.js"></script>
+  <script src="script/DropTarget.js"></script>
+  <script src="script/TreeDragAvatar.js"></script>
+  <script src="script/TreeDragZone.js"></script>
+  <script src="script/TreeDropTarget.js"></script>
+    
+    
+        <link rel="stylesheet" href="css/style.css">
 
-<body>
-<div>
+    
+    
+    
+    
+  </head>
 
-<ul class="Container">
-	<li class="Node Main ">
-	    <div class="Indent"></div> <img src = "img/doc.png">
-	    <div class="Content"><span>������������ ��������</span></div>
+  <body>
+
+    <div class="b-tree co-tree" data-id="354" data-type="Courses::List" url="/courses/354/update_order">
+  <ul id="tree">
+    <li>
+      <ul>
+        <li data-id="1581" data-type="Courses::Module">
+          <a class="editable editable-click" data-name="name" data-original-title="Название модуля" data-resource="courses_module" data-type="text" data-url="/courses/354/modules/1581" href="#"><i class="icon-organization"></i>Установочный модуль</a>
+          <div class="b-actions">
+            <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/modules/1581" rel="nofollow"><i class="icon-trash"></i></a>
+          </div>
+          <ul>
+            <li data-id="7222" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7222"><i class="icon-doc"></i><span>Основная и дополнительная литература</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7222" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7223" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7223"><i class="icon-doc"></i><span>Вопросы к зачету</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7223" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="255" data-type="Control::Work">
+              <a href="/courses/354/control/works/255"><i class="icon-note"></i><span>Контрольная работа</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" data-remote="true" href="/courses/354/control/works/255" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7226" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7226"><i class="icon-doc"></i><span>Список терминов к курсу «Административное право»</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7226" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li data-id="1582" data-type="Courses::Module">
+          <a class="editable editable-click" data-name="name" data-original-title="Название модуля" data-resource="courses_module" data-type="text" data-url="/courses/354/modules/1582" href="#"><i class="icon-organization"></i>Модуль 1</a>
+          <div class="b-actions">
+            <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/modules/1582" rel="nofollow"><i class="icon-trash"></i></a>
+          </div>
+          <ul>
+            <li data-id="7229" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7229"><i class="icon-doc"></i><span>Содержание учебной дисциплины</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7229" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7230" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7230"><i class="icon-doc"></i><span>Социальное управление и исполнительная власть</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7230" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7231" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7231"><i class="icon-doc"></i><span>Предмет и метод административного права</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7231" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7232" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7232"><i class="icon-doc"></i><span>Нормы административного права и административно-правовые отношения</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7232" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7233" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7233"><i class="icon-doc"></i><span>Система и источники административного права</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7233" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7234" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7234"><i class="icon-doc"></i><span>Субъекты административного права</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7234" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7235" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7235"><i class="icon-doc"></i><span>Индивидуальные субъекты административного права</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7235" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7236" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7236"><i class="icon-doc"></i><span>Органы исполнительной государственной власти (государственного управления)</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7236" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="640" data-type="Courses::Test">
+              <a href="/courses/354/tests/640/edit"><i class="icon-list"></i><span>Тест по курсу Административное право, модуль 1</span></a>
+              <ul>
+                <li data-id="640" data-type="Tests::List">
+                  <a href="/courses/354/tests/lists/640"> Вариант 1</a>
+                </li>
+                <li>
+                  <a data-method="post" href="/courses/354/tests/lists?test_id=640" rel="nofollow"><i class="icon-pencil"></i>Добавить вариант</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li data-id="1578" data-type="Courses::Module">
+          <a class="editable editable-click" data-name="name" data-original-title="Название модуля" data-resource="courses_module" data-type="text" data-url="/courses/354/modules/1578" href="#"><i class="icon-organization"></i><span>Модуль 2</span></a>
+          <div class="b-actions">
+            <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/modules/1578" rel="nofollow"><i class="icon-trash"></i></a>
+          </div>
+          <ul>
+            <li data-id="7206" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7206"><i class="icon-doc"></i><span>Понятие и виды методов реализации компетенции субъектов государственной исполнительной власти</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7206" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7207" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7207"><i class="icon-doc"></i><span>Вопросы для самостоятельной работы</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7207" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7208" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7208"><i class="icon-doc"></i><span>Содержание учебной дисциплины</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7208" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7209" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7209"><i class="icon-doc"></i><span>Правовые основы государственной организации службы. Административно-правовой статус служащих</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7209" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7210" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7210"><i class="icon-doc"></i><span>Предприятия и учреждения как субъекты административного права</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7210" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7211" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7211"><i class="icon-doc"></i><span>Формы управленческой деятельности субъектов исполнительной власти</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7211" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="641" data-type="Courses::Test">
+              <a href="/courses/354/tests/641/edit"><i class="icon-list"></i><span>Тест по курсу Административное право, модуль 2</span></a>
+              <ul>
+                <li data-id="641" data-type="Tests::List">
+                  <a href="/courses/354/tests/lists/641"> Вариант 1</a>
+                </li>
+                <li>
+                  <a data-method="post" href="/courses/354/tests/lists?test_id=641" rel="nofollow"><i class="icon-pencil"></i>Добавить вариант</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li data-id="1579" data-type="Courses::Module">
+          <a class="editable editable-click" data-name="name" data-original-title="Название модуля" data-resource="courses_module" data-type="text" data-url="/courses/354/modules/1579" href="#"><i class="icon-organization"></i><span>Модуль 3</span></a>
+          <div class="b-actions">
+            <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/modules/1579" rel="nofollow"><i class="icon-trash"></i></a>
+          </div>
+          <ul>
+            <li data-id="7212" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7212">
+              <i class="icon-doc"></i>
+              <span>Содержание учебной дисциплины</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7212" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7213" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7213"><i class="icon-doc"></i><span>Понятие административного принуждения, его виды и соотношение с административной ответственностью</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7213" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7214" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7214"><i class="icon-doc"></i><span>Административная ответственность как вид юридической ответственности</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7214" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7215" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7215"><i class="icon-doc"></i><span>Производство по делам об административной ответственности</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7215" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7216" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7216"><i class="icon-doc"></i><span>Понятие законности и дисциплины</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7216" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="642" data-type="Courses::Test">
+              <a href="/courses/354/tests/642/edit"><i class="icon-list"></i><span>Тест по курсу Административное право, модуль 3</span></a>
+              <ul>
+                <li data-id="642" data-type="Tests::List">
+                  <a href="/courses/354/tests/lists/642"> Вариант 1</a>
+                </li>
+                <li>
+                  <a data-method="post" href="/courses/354/tests/lists?test_id=642" rel="nofollow"><i class="icon-pencil"></i>Добавить вариант</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li data-id="1580" data-type="Courses::Module">
+          <a class="editable editable-click" data-name="name" data-original-title="Название модуля" data-resource="courses_module" data-type="text" data-url="/courses/354/modules/1580" href="#"><i class="icon-organization"></i><span>Модуль 4</span></a>
+          <div class="b-actions">
+            <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/modules/1580" rel="nofollow"><i class="icon-trash"></i></a>
+          </div>
+          <ul>
+            <li data-id="7217" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7217"><i class="icon-doc"></i><span>Содержание учебной дисциплины</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7217" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7218" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7218"><i class="icon-doc"></i><span>Организационно-правовые способы обеспечения законности и дисциплины в государственном управлении (в сфере административно-правового регулирования)</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7218" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7219" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7219"><i class="icon-doc"></i><span>Административно-правовое регулирование в области экономики</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7219" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7220" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7220"><i class="icon-doc"></i><span>Административно-правовое регулирование в социально-культурной области</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7220" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="7221" data-type="Courses::Task">
+              <a href="/courses/354/tasks/7221"><i class="icon-doc"></i><span>Государственное управление охраной и защитой безопасности личности, общества и государства</span></a>
+              <div class="b-actions">
+                <a><i class="icon-shuffle"></i></a><a data-confirm="Вы уверены?" data-method="delete" href="/courses/354/tasks/7221" rel="nofollow"><i class="icon-trash"></i></a>
+              </div>
+            </li>
+            <li data-id="643" data-type="Courses::Test">
+              <a href="/courses/354/tests/643/edit"><i class="icon-list"></i><span>Тест по курсу Административное право, модуль 4</span></a>
+              <ul>
+                <li data-id="643" data-type="Tests::List">
+                  <a href="/courses/354/tests/lists/643"> Вариант 1</a>
+                </li>
+                <li>
+                  <a data-method="post" href="/courses/354/tests/lists?test_id=643" rel="nofollow"><i class="icon-pencil"></i>Добавить вариант</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li data-id="644" data-type="Courses::Test">
+          <a href="/courses/354/tests/644/edit"><i class="icon-list"></i><span>Итоговый тест по курсу Административное право.</span></a>
+          <ul>
+            <li data-id="644" data-type="Tests::List">
+              <a href="/courses/354/tests/lists/644"> Вариант 1</a>
+            </li>
+            <li>
+              <a data-method="post" href="/courses/354/tests/lists?test_id=644" rel="nofollow"><i class="icon-pencil"></i>Добавить вариант</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </li>
-   <li class="Node Main">
-    <div class="Indent"></div><img src = "img/mod.png">
-    <div class="Content"><span>������������ ������</span></div>
-    <ul class="Container">
-      <li class="Node">
-        <div class="Indent"></div> <img src = "img/doc.png">
-        <div class="Content"><span>���������� ������� ����������</span></div>
-      </li>
-      <li class="Node">
-        <div class="Indent"></div> <img src = "img/edit.png">
-        <div class="Content"><span>���� ����������� �����</span></div> 
-      </li>
-      <li class="Node End">
-        <div class="Indent"></div> <img src = "img/list.png">
-        <div class="Content">���� �� ����� <span>����������� ��������� ��������</span></div> 
-        <ul class="Container">
-          <li class="Node">
-            <div class="Indent"></div><img src = "img/doc.png">
-            <div class="Content"><span>������� 1</span></div>
-          </li>
-          <li class="Node End">
-            <div class="Indent"></div><img src = "img/pencil.png">
-            <div class="Content">�������� �������</div>
-          </li>
-        </ul>
-      </li>
-     </li>
-  <li class="Node Main">
-    <div class="Indent"></div> <img src = "img/list.png">
-    <div class="Content"><span>������ 2</span></div>
-    <ul class="Container">
-      <li class="Node">
-        <div class="Indent"></div> <img src = "img/edit.png">
-        <div class="Content">Item 2.1</div>
-      </li>
-      <li class="Node  End">
-        <div class="Indent"></div> <img src = "img/edit.png">
-        <div class="Content">Item 2.1</div>
-      </li>
-    </ul>
-  </li>
-  <li class="Node  Main End">
-    <div class="Indent"></div>
-    <div class="Content">Item 3</div>
-<!--     <ul class="Container"> -->
-      <li class="Node  End">
-        <div class="Indent"></div>
-        <div class="Content">Item 3.1</div>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-
-	
-  
+  </ul>
 </div>
-</body>
+ 
+  <script>
+    var tree = document.getElementById('tree');
+    new TreeDragZone(tree);
+    new TreeDropTarget(tree);
+  </script>
+    
+    
+    
+  </body>
 </html>

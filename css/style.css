@@ -1,0 +1,33 @@
+.b-tree ul, .b-tree li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  list-style: none;
+  position: relative;
+}
+.b-tree  ul {
+  margin: 0 0 0 20px;
+}
+.b-tree > li:not(:only-child), .b-tree li li 
+{
+  position: relative;
+  padding: .2em 0 0 1.2em;
+}
+.b-tree li:not(:last-child){
+  border-left: 1px solid gray;
+}
+ .b-tree li li::before, 
+ .b-tree > li:not(:only-child)::before, .b-tree > ul:not(:only-child)::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.1em;
+  height: 20px;
+  border-bottom: 1px solid gray;
+}
+ .b-tree li:last-child::before, .b-tree ul:last-child::before {
+  width: calc(1.1em - 1px);
+  border-left: 1px solid gray;
+}
+
